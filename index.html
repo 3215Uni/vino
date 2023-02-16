@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./img/logit.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Agencia de promoción</title>
+  </head>
+  
+  <body>
+    <header id="mainheader">
+        <nav id="navbar">
+          <div class="container">
+            <h1 class="logo">
+              <a href="#home">
+                <img  class="imgLogo" id="logoMPP" src="./img/logito.png">
+              </a>
+            </h1>
+
+            <ul id="nave">
+              <li><a href="#nosotros"><img class="grapes " src="img/grapes-icon.svg"> NOSOTROS</a></li>
+              <li><a href="#elEvento"><img class="grapes " src="img/glass-drink-icon.svg"> EL EVENTO</a></li>
+              <li><a href="#registrarse"><img class="grapes " src="img/online-form-icon.svg">  REGISTRATE</a></li>
+            </ul>
+
+          </div>
+        </nav>
+          
+    </header>
+  
+        <section id="home">
+        
+        </br>
+              
+        </br>
+      </br>
+      </br>
+      </br>          <br>
+            <br>
+          <div id="showcase">
+          </br>
+    
+            <div class="container">
+              <div class="showcase-img">
+                <img src="./img/industria.jpg" alt="showcase" />
+              </div>
+    
+              <div class="showcase-text">
+                <div>
+                <h1><b class="tituloexpoVitivinicola">
+                  Expo vitivinicola
+                </b>
+                </h1>  
+              </br>
+            </br>  
+          </br>  
+            </div>
+              <div>
+                <h2 class="expoVitivinicola">
+                  "juntos, potenciamos el comercio Jujeño"
+                </h2>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<br>
+    <section id="elEvento">
+      <div class="container">
+        <div class="seccionVideo">
+          <video controls>
+            <source src="./video/vinosJujuy.mp4" preload="auto">
+            Tu navegador no es compatible con formato de video mp4 para HTLM5
+          </video>
+        </div>
+        <div class="subtituloParrafo">          
+          <h2>Vinos de Altura</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquam labore facere sit odit eius, in minus eveniet qui accusamus ipsa iste nemo doloribus obcaecati dolore, dignissimos, incidunt quos? Labore?</p>
+        </div>
+      </div>
+    </section>
+    
+    <section id="nosotros">
+      <div class="container">
+        <div class="nosotros-title">
+          <h2>Agencia de promoción vitivinícola de Jujuy</h2>
+          <p class="large">
+            Nuestra misión: promover a nivel mundial la producción vitivinícola de altura jujeña. Única por sus características territoriales y la pasión de su gente
+          </p>
+        </div>
+        <div class="nosotros-img">
+          <img src="./img/expovinos.jpg" alt="Entrada al salón Expovinos">
+        </div>
+      </div>
+    </section>
+
+    <section id="registrarse">                
+      <div class="container">
+        <div class="registrarse-form">
+          <form id="formulario"> 
+            <div class="form-group">
+              <label for="name"><b>Nombre</b></label>
+              <input placeholder="Nombre y Apellido" id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="email"><b>Email</b></label>
+              <input placeholder="email@ejemplo.com" id="email" class="form-control" type="email">
+            </div>
+            <div class="form-group">
+              <label for="name"><b>Mensaje</b></label>
+              <textarea  placeholder="Ingrese aqui un mensaje" class="form-control" id="message" cols="30" rows="8"></textarea>
+            </div>
+            <!-- CONTROLAR -->
+            <button id="enviar" class="btn btn-light">Enviar</button>
+          </form>
+        </div>
+        <div class="registrarse-title">          
+          <h2 class="registrarseTitilo"
+           >REGISTRARSE</h2>
+        </div>
+        <br>
+        <br>
+      </div>
+      <br>
+      <br>
+    </section>
+
+      <section id="seccionClima">
+      </br>
+      </br>
+      </br>
+        <div id="titulo">
+          <h2 class="tituloClima"><b>Así está el clima en el lugar del Evento: <br>
+            
+            Ciudad Cultural!</b></h2>
+        </div>
+
+        <div id="">
+          <div id="datosClima">
+            <table>
+              <tr>
+                <td><h6 class="textoClima"><b>TEMPERATURA: </b></h6></td>
+                <td><h5 id="valor"></h5></td>
+              </tr>
+              <tr>
+                <td><h6 class="textoClima"><b>DESCRIPCIÓN: </b></h6></td>
+                <td><h5 id="descripcion"></h5></td>
+              </tr>
+              <tr>
+                <th><h6 class="textoClima"><b>VIENTOS: </b> </h6></td>
+                <th><h5 id="vientos"></h5></td>
+                </r>
+              <tr>
+                <td><h6 class="textoClima"><b>HUMEDAD:</b> </h6> </td>
+                <td><h5 id="humedad"></h5></td>
+              </tr>
+            </table>
+              
+          </div>
+          <div id="iconoClima">
+              <h6 id="ubicacion"></h6>
+              <img id="svgAnimado" src="" alt="" height="128" width="128">
+          </div>
+          <div id="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3639.666882249007!2d-65.33348658556866!3d-24.183412790740977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941b0ee2033f07f3%3A0xc77a811c6a4b0561!2sCiudad%20Cultural!5e0!3m2!1ses!2sar!4v1661299808826!5m2!1ses!2sar" width="300px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>    
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer>
+          <div id="copyright">
+            <br>
+            
+
+            <p class="fin">&copy; 2.022 - Todos los derechos reservados</p>
+            <p class="fin">PAGINA PARA TRABAJO PRACTICO - NO FUNCIONA COMO PAGINA OFICIAL DE NINGUN TIPO DE EVENTO REAL</p>
+          </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
